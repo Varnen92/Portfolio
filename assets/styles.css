@@ -13,7 +13,7 @@
 
 body {
     color: var(--secondary-color);
-    font-family: Georgia, Helvetica, Arial, sans-serif;
+    font-family: "Franklin Gothic",Georgia, Helvetica, Arial, sans-serif;
 }
 /* Header and Footer styles */
 header, footer {
