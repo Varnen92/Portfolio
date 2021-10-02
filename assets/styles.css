@@ -16,6 +16,10 @@ body {
     color: var(--secondary-color);
     font-family: "Franklin Gothic",Georgia, Helvetica, Arial, sans-serif;
 }
+
+.flexrow {
+    display: flex;
+}
 /* Header and Footer styles */
 header, footer {
     padding: 20px 35px;
@@ -81,18 +85,19 @@ header nav ul li a, footer ul li a, footer ul li{
 
 .titles h3{
     font-size: 40px;
-    display: flex;
-    border-right: 3px solid var(--secondary-color);
+    border-right: 2px solid var(--secondary-color);
     width: 10%;
     padding-bottom: 2em;
 }
 
 .information {
     font-size: 20px;
-    position: relative;
-    left: 20em;
-    bottom: 6em;
+    margin-left: 10px;
 }
 
+img {
+    width:200px;
+    border: solid white 1px;
+}
 
 
