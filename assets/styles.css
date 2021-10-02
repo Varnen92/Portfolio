@@ -8,6 +8,7 @@
     --primary-color: rgb(50, 50, 150);
     --secondary-color: white;
     --tertiary-color: rgb(11, 90, 121); 
+    --final-color: rgb(15,24,57);
 }
 /* body style */
 
@@ -52,3 +53,26 @@ header nav ul li a, footer ul li a, footer ul li{
     text-shadow: 0 0 10px rgba(0,0,0,0.7);
     color: var(--secondary-color);
 }
+
+/* Hero Style */
+
+.hero {
+    background-image: url("../assets/Images/Developer\ Background.jpg");
+    background-size: 10%;
+    padding: 2.4vw;
+    width: 100%;
+}
+
+.hero h2 {
+    text-align: center;
+    margin-top: -60px;
+    font-size: 12px;
+}
+.hero span{
+    font-style: italic;
+    font-size: 40px;
+}
+
+/* About Me */
+
+
