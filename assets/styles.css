@@ -75,4 +75,24 @@ header nav ul li a, footer ul li a, footer ul li{
 
 /* About Me */
 
+#About-me {
+    background-color: var(--final-color);
+}
+
+.titles h3{
+    font-size: 40px;
+    display: flex;
+    border-right: 3px solid var(--secondary-color);
+    width: 10%;
+    padding-bottom: 2em;
+}
+
+.information {
+    font-size: 20px;
+    position: relative;
+    left: 20em;
+    bottom: 6em;
+}
+
+
 
