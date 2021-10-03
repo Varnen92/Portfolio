@@ -67,9 +67,9 @@ header nav ul li a, footer ul li a, footer ul li{
 }
 
 .hero h2 {
-    text-align: center;
     margin-top: 2.5vw;
     font-size: 12px;
+    text-align: center;
 }
 .hero span{
     font-style: italic;
@@ -89,7 +89,7 @@ header nav ul li a, footer ul li a, footer ul li{
 }
 
 #About-me img{
-    width:200px;
+    width: 200px;
     border: solid white 1px;
     margin: 20px;
 }
@@ -102,13 +102,14 @@ header nav ul li a, footer ul li a, footer ul li{
 /* Work section */
 
 .runbuddy {
-    width: 200px;
     border: solid white 1px;
     margin: 20px;
-
+    opacity: 0.7;
+    width: 50%;
+    margin-left: 300px;
 }
 
-
-
-
+.hover:hover{
+    opacity: 1;
+}
 
