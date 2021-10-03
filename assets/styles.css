@@ -64,17 +64,16 @@ header nav ul li a, footer ul li a, footer ul li{
     background-image: url("../assets/Images/Developer\ Background.jpg");
     background-size: 10%;
     padding: 2.4vw;
-    width: 100%;
 }
 
 .hero h2 {
     text-align: center;
-    margin-top: -60px;
+    margin-top: 2.5vw;
     font-size: 12px;
 }
 .hero span{
     font-style: italic;
-    font-size: 40px;
+    font-size: 1.7vw;
 }
 
 /* About Me */
