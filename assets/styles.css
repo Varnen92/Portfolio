@@ -81,23 +81,24 @@ header nav ul li a, footer ul li a, footer ul li{
 
 #About-me {
     background-color: var(--final-color);
+    border-top: white solid 2px;
 }
 
 .titles h3{
     font-size: 40px;
-    border-right: 2px solid var(--secondary-color);
-    width: 10%;
-    padding-bottom: 2em;
-}
-
-.information {
-    font-size: 20px;
-    margin-left: 10px;
+    margin: 20px;
 }
 
 img {
     width:200px;
     border: solid white 1px;
+    margin: 20px;
 }
+
+.information {
+    font-size: 20px;
+    margin: 20px;
+}
+
 
 
