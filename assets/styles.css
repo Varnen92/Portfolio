@@ -78,7 +78,7 @@ header nav ul li a, footer ul li a, footer ul li{
 
 /* About Me */
 
-#About-me {
+#About-me, #work {
     background-color: var(--final-color);
     border-top: white solid 2px;
 }
@@ -88,7 +88,7 @@ header nav ul li a, footer ul li a, footer ul li{
     margin: 20px;
 }
 
-img {
+#About-me img{
     width:200px;
     border: solid white 1px;
     margin: 20px;
@@ -98,6 +98,17 @@ img {
     font-size: 20px;
     margin: 20px;
 }
+
+/* Work section */
+
+.runbuddy {
+    width: 200px;
+    border: solid white 1px;
+    margin: 20px;
+
+}
+
+
 
 
 
