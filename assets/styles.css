@@ -17,8 +17,9 @@ body {
     font-family: "Franklin Gothic",Georgia, Helvetica, Arial, sans-serif;
 }
 
-.flexrow {
+.flex {
     display: flex;
+    flex-wrap: wrap;
 }
 /* Header and Footer styles */
 header, footer {
@@ -78,38 +79,60 @@ header nav ul li a, footer ul li a, footer ul li{
 
 /* About Me */
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #About-me, #work {
     background-color: var(--final-color);
     border-top: white solid 2px;
 }
 
-.titles h3{
-    font-size: 40px;
+#About-me h3{
+    font-size: 30px;
     margin: 20px;
 }
 
 #About-me img{
     width: 200px;
     border: solid white 1px;
-    margin: 20px;
+    margin: 10px;
 }
 
-.information {
+#About-me p {
     font-size: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Work section */
 
 .runbuddy {
     border: solid white 1px;
-    margin: 20px;
     opacity: 0.7;
     width: 50%;
-    margin-left: 300px;
+    position: relative;
+    left: 30vw;
 }
 
 .hover:hover{
     opacity: 1;
 }
 
+#work h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.flex-item {
+    display: flex;
+    position: relative;
+    left: 20vw;
+    flex-basis: calc(50% - 1em);
+    margin: 5px;
+}
